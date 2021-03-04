@@ -1,0 +1,17 @@
+
+body {
+    font-size: 20px;
+    text-align: center;
+}
+
+button:hover {
+    color: blue; 
+}
+
+#div1 {
+    padding-top: 2%;
+}
+
+p {
+    padding-top: 2%;
+}

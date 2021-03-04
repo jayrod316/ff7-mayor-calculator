@@ -1,0 +1,1 @@
+This is my first little project. It is a simple calculator that predicts the Shinra mayor's password in the Shinra Tower in Final Fantasy VII. This is certainly not a necessary tool, as it is very easy to do the math in your head. This project is mostly just to help me understand and learn a few things about how to put a webpage with some JavaScript together.
