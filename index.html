@@ -12,13 +12,16 @@
     <h1>Mayor Password Calculator</h1>
 
     <div id="div1">
-        <input type="text" placeholder="IGT seconds" id="igt" value="">
-        <button type="button" onclick="getInputValue()">Calculate!</button>
+
+        <input autocomplete="off" autofocus onkeyup="getInputValue()" type=" text" placeholder="IGT seconds" id="igt"
+            value="">
+
     </div>
 
-    <p>Enter the seconds displayed on your IGT to reveal the Mayor's password!</p>
+    <p>Type the last two digits of your IGT (xx:xx:<strong style="color: red">XX</strong>)</p>
 
-    <p id="solution"></p>
+    <p id="psxsolution"></p>
+    <p id="pcsolution"></p>
     <script src="script.js"></script>
 
 </body>
