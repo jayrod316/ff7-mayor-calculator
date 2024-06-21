@@ -17,14 +17,7 @@ function getInputValue() {
         key = find(seconds)
 
         let psxsolution = passwords[key]
-
-        if (key < 2) {
-            pcsolution = passwords[key + 2]
-        }
-
-        else if (key >= 2) {
-            pcsolution = passwords[key - 2]
-        }
+        let pcsolution = passwords[(key + 2) % 4]
 
         document.getElementById("psxsolution").innerHTML = "PSX: " + psxsolution;
         document.getElementById("pcsolution").innerHTML = "PC: " + pcsolution;
@@ -35,6 +28,6 @@ function getInputValue() {
         document.getElementById("pcsolution").innerHTML = "Sorry! You must enter an integer between 0 and 60."
 
     }
-
 }
+
 
