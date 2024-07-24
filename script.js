@@ -9,7 +9,7 @@ function getInputValue() {
         "Option 4 - BOMB"
     ]
 
-    if (seconds <= 60 && seconds >= 0) {
+    if (seconds >= 0) {
         function find(seconds) {
             return key = Math.trunc(seconds % 4);
         }
@@ -24,8 +24,8 @@ function getInputValue() {
     }
 
     else {
-        document.getElementById("psxsolution").innerHTML = "Sorry! You must enter an integer between 0 and 60."
-        document.getElementById("pcsolution").innerHTML = "Sorry! You must enter an integer between 0 and 60."
+        document.getElementById("psxsolution").innerHTML = "You must enter a positive integer."
+        document.getElementById("pcsolution").innerHTML = "You must enter a positive integer."
 
     }
 }
